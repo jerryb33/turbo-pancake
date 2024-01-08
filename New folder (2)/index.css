@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(221, 221, 221);
+  font-family: Poppins;
+}
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+  background-color: rgb(220, 220, 220);
+  overflow: hidden;
+  border-bottom: 1.5px solid rgba(160, 161, 162, 0.283);
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -05px;
+  padding: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: left;
+  color: white;
+}
+
+
+.flex-cont {
+  padding-top: 50px;
+  padding-right: 90px;
+  padding-left: 90px;
+
+}
+
+.flex-1 {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  padding-top: 20px;
+}
+.flex-2 {
+  width: 35%;
+  padding: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(15, 127, 192);
+}
+
+span {
+  padding-top: -px;
+}
+.nn {
+  font-size: 50px;
+}
+
+label {
+  font-size: 15px;
+  padding-left: 40px;
+
+}
+input {
+  border: hidden;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: rgb(240, 241, 243);
+}
+P {
+  font-weight: bold;
+  font-size: large;
+}
+
+.ffname {
+  margin-right: 5%;
+}
+.ffname, .llname {
+  width: 285px;
+}
+
+.email {
+  padding-left: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(207, 207, 207, 0.244);
+}
+
+.credit {
+  width: 860px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid  rgba(207, 207, 207, 0.244);
+}
+
+button {
+ text-align: center;
+ color: white;
+ background-color: rgb(19, 160, 127);
+ width: 90%;
+ height: 49px;
+ border: none;
+ border-radius: 4px;
+ margin-top: 40px;
+ margin-left: 35px;
+ margin-bottom: 10px;
+}
+strong {
+  font-size: large;
+}
+
+.q {
+  border: 2px solid;
+  border-radius: 20px;
+  font-size: small;
+  color: rgb(78, 137, 206);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.q1 {
+  border: 2px solid;
+  border-radius: 25px;
+  font-size: 15px;
+  color: rgb(78, 137, 206);
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
